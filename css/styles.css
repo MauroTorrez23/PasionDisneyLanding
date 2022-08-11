@@ -129,8 +129,8 @@ video {
 }
 
 .logo img {
-  width: 7rem;
-  height: 7rem;
+  width: 9rem;
+  height: 9rem;
 }
 
 .nav-item:not(:last-child) {
@@ -140,6 +140,7 @@ video {
 .nav-link {
   display: inline-block;
   padding: 1rem;
+  
   color: var(--white);
 }
 
@@ -185,7 +186,8 @@ video {
 
 .navigation.fix {
   position: fixed;
-  background-color: var(--text-1);
+  /* background-color: var(--text-1); */
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 @media (max-width: 768px) {
@@ -779,7 +781,8 @@ video {
 
 /* =========== Footer ============ */
 .footer {
-  background-color: var(--text-1);
+  /* background-color: var(--text-1); */
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .footer .row {
