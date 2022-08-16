@@ -61,7 +61,7 @@ video {
   height: 100%;
 }
 
-/* =========== Custom Classes ============ */
+/* =========== Custom  ============ */
 .d-flex {
   display: flex;
   align-items: center;
@@ -103,7 +103,7 @@ video {
   }
 }
 
-/* =========== Navigation ============ */
+/* =========== Nav ============ */
 
 .header {
   position: relative;
@@ -236,7 +236,7 @@ video {
   }
 }
 
-/* =========== Home ============ */
+/* =========== inicio ============ */
 
 .swiper-container {
   width: 100%;
@@ -331,7 +331,7 @@ video {
   }
 }
 
-/* =========== About ============ */
+/* =========== info ============ */
 .about .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -412,7 +412,7 @@ video {
     width: 30rem;
   }
 }
-/* =========== Service ============ */
+/* =========== recomencion ============ */
 .service .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -437,7 +437,7 @@ video {
     grid-template-columns: 1fr;
   }
 }
-/* =========== Discount ============ */
+/* =========== Descuento ============ */
 .discount {
   position: relative;
   height: 60rem;
@@ -515,7 +515,7 @@ video {
     height: 5rem;
   }
 }
-/* =========== Trip ============ */
+/* =========== galeria ============ */
 .trip {
   overflow: hidden;
 }
@@ -637,7 +637,7 @@ video {
   }
 }
 
-/* =========== More ============ */
+/* =========== Donde hospedarse ============ */
 .more .title {
   margin-bottom: 5rem;
 }
@@ -679,78 +679,9 @@ video {
 }
 
 /* =========== Contact ============ */
-.newsletter {
-  background-color: var(--text-1);
-  height: 30rem;
-}
 
-.newsletter .row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 5rem;
-  height: 100%;
-}
 
-.newsletter .col h2,
-.newsletter .col p {
-  color: var(--white);
-}
-
-.newsletter .col h2 {
-  margin-bottom: 2rem;
-  font-size: 3rem;
-}
-
-.newsletter .form div {
-  position: relative;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.newsletter .form input {
-  width: 100%;
-  outline: none;
-  border: none;
-  padding: 1.5rem 0;
-  text-indent: 1rem;
-  font-size: 1.7rem;
-  border-radius: 5px;
-}
-
-.newsletter .form button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 1rem;
-  outline: none;
-  border: none;
-  background-color: var(--text-1);
-  color: var(--white);
-  padding: 0.8rem 3rem;
-  font-size: 1.7rem;
-  font-weight: 500;
-  border-radius: 5px;
-}
-
-@media (max-width: 767px) {
-  .newsletter .row {
-    grid-template-columns: 1fr;
-  }
-
-  .newsletter .form div {
-    width: 100%;
-  }
-}
-
-@media (max-width: 567px) {
-  .newsletter {
-    height: 40rem;
-    padding-bottom: 10rem;
-  }
-}
-
-/* =========== Contact Us ============ */
+/* =========== Contacto ============ */
 .contact .title {
   text-align: center;
   margin-bottom: 5rem;
