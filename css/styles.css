@@ -748,6 +748,12 @@ video {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
+.footer p{
+  color: var(--white);
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 2rem;
+}
 
 @media (max-width: 767px) {
   .footer .row {

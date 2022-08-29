@@ -1,4 +1,4 @@
-// Navigation Toggle
+// Nav
 const hamburger = document.querySelector(".hamburger");
 const navList = document.querySelector(".nav-list");
 
@@ -6,7 +6,7 @@ hamburger.addEventListener("click", () => {
   navList.classList.toggle("open");
 });
 
-// Discount Media
+// Descuento
 const video = document.querySelector(".video");
 const button = document.querySelector(".video-control");
 
@@ -70,7 +70,7 @@ Array.from(links).map((link) => {
   });
 });
 
-// Scroll Reveal
+// Scroll
 
 const scroll = ScrollReveal({
   distance: "100px",
